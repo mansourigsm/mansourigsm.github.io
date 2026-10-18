@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تطبيقاتي | اسمك</title>
+  <title>تطبيقاتي | محمد منصوري</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <nav class="navbar">
-    <div class="logo" data-ar="اسمك" data-en="YourName">اسمك</div>
+    <div class="logo" data-ar="محمد منصوري" data-en="Mohamed Mansouri">محمد منصوري</div>
     <ul class="nav-links">
       <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
       <li><a href="apps.html" data-ar="تطبيقاتي" data-en="My Apps">تطبيقاتي</a></li>
@@ -20,35 +20,39 @@
 
   <section class="section">
     <h1 class="page-title" data-ar="تطبيقاتي" data-en="My Apps">تطبيقاتي</h1>
-    <p class="page-subtitle" data-ar="مجموعة من التطبيقات التي طورتها" data-en="A collection of apps I've built">
-      مجموعة من التطبيقات التي طورتها
+    <p class="page-subtitle" data-ar="مجموعة من التطبيقات التي طورتها لخدمة العلم واللغة" data-en="A collection of apps I've built to serve knowledge and language">
+      مجموعة من التطبيقات التي طورتها لخدمة العلم واللغة
     </p>
 
     <div class="apps-grid">
 
-      <!-- التطبيق الأول -->
+      <!-- التطبيق الأول: أذكار الصباح والمساء -->
       <div class="app-card">
-        <!-- استبدل الصورة بأيقونة تطبيقك -->
-        <img src="https://via.placeholder.com/100/8b5cf6/ffffff?text=App+1" alt="أيقونة التطبيق" class="app-icon">
-        <h3 data-ar="اسم التطبيق الأول" data-en="First App Name">اسم التطبيق الأول</h3>
-        <p data-ar="وصف قصير للتطبيق وما يقدمه للمستخدم." data-en="Short description of the app and what it offers.">
-          وصف قصير للتطبيق وما يقدمه للمستخدم.
+        <!-- تأكد من رفع صورة أيقونة التطبيق باسم athkar.png في المستودع -->
+        <img src="athkar.png" alt="أذكار الصباح والمساء" class="app-icon" onerror="this.src='https://via.placeholder.com/100/0f766e/ffffff?text=أذكار'">
+        <h3 data-ar="أذكار الصباح و المساء بالطارقية" data-en="Morning & Evening Adhkar (Tarqi)">أذكار الصباح و المساء بالطارقية</h3>
+        <p data-ar="تطبيق يحتوي على أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارفية للشيخ أبو إسحاق عبد الكريم حفظه الله." 
+           data-en="App featuring Morning & Evening Adhkar by Sheikh Raslan (may Allah preserve him), with Tarqi explanation by Sheikh Abu Ishaq Abdul Karim (may Allah preserve him).">
+           تطبيق يحتوي على أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارفية للشيخ أبو إسحاق عبد الكريم حفظه الله.
         </p>
         <div class="app-links">
-          <a href="#" class="btn btn-primary btn-small" data-ar="جوجل بلاي" data-en="Google Play">جوجل بلاي</a>
+          <!-- ضع رابط تحميل ملف APK (مثلاً رابط جوجل درايف) بدلاً من علامة # -->
+          <a href="#" class="btn btn-primary btn-small" data-ar="تحميل التطبيق (APK)" data-en="Download App (APK)">تحميل التطبيق (APK)</a>
           <a href="privacy-app1.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
         </div>
       </div>
 
-      <!-- التطبيق الثاني -->
+      <!-- التطبيق الثاني: منبر كل تماشق -->
       <div class="app-card">
-        <img src="https://via.placeholder.com/100/ec4899/ffffff?text=App+2" alt="أيقونة التطبيق" class="app-icon">
-        <h3 data-ar="اسم التطبيق الثاني" data-en="Second App Name">اسم التطبيق الثاني</h3>
-        <p data-ar="وصف قصير للتطبيق وما يقدمه للمستخدم." data-en="Short description of the app and what it offers.">
-          وصف قصير للتطبيق وما يقدمه للمستخدم.
+        <!-- تأكد من رفع صورة أيقونة التطبيق باسم minbar.png في المستودع -->
+        <img src="minbar.png" alt="منبر كل تماشق" class="app-icon" onerror="this.src='https://via.placeholder.com/100/166534/ffffff?text=منبر'">
+        <h3 data-ar="منبر كل تماشق" data-en="Minbar Koul Tamasheq">منبر كل تماشق</h3>
+        <p data-ar="تطبيق يجمع دروس مشايخ كل تماشق وقصائد نافعة في مكان واحد. (قيد التطوير حالياً)." 
+           data-en="An app that gathers lessons from Tamasheq scholars and beneficial poems in one place. (Currently under development).">
+           تطبيق يجمع دروس مشايخ كل تماشق وقصائد نافعة في مكان واحد. (قيد التطوير حالياً).
         </p>
         <div class="app-links">
-          <a href="#" class="btn btn-primary btn-small" data-ar="جوجل بلاي" data-en="Google Play">جوجل بلاي</a>
+          <span class="btn btn-outline btn-small" style="cursor: not-allowed; opacity: 0.7;" data-ar="قريباً جداً" data-en="Coming Soon">قريباً جداً</span>
           <a href="privacy-app2.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
         </div>
       </div>
@@ -57,7 +61,7 @@
   </section>
 
   <footer class="footer">
-    <p data-ar="© 2025 اسمك. جميع الحقوق محفوظة." data-en="© 2025 YourName. All rights reserved.">© 2025 اسمك. جميع الحقوق محفوظة.</p>
+    <p data-ar="© 2025 محمد متن منصوري. جميع الحقوق محفوظة." data-en="© 2025 Mohamed Maten Mansouri. All rights reserved.">© 2025 محمد متن منصوري. جميع الحقوق محفوظة.</p>
   </footer>
 
   <script src="js/main.js"></script>
