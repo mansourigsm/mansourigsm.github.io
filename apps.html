@@ -2,69 +2,65 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تطبيقاتي | محمد منصوري</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1213">
+  <meta name="description" content="تعرّف على تطبيقات محمد متن منصوري لخدمة اللغة الطارقية والعلوم الشرعية.">
+  <title data-ar="تطبيقاتي | محمد متن منصوري" data-en="My apps | Mohamed Maten Mansouri">تطبيقاتي | محمد متن منصوري</title>
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <nav class="navbar">
-    <a href="index.html" class="logo">
-      <img src="logo.png" alt="شعار محمد منصوري" style="height: 45px; width: auto; border-radius: 8px;">
-    </a>
+  <a class="skip-link" href="#main" data-ar="انتقل إلى المحتوى" data-en="Skip to content">انتقل إلى المحتوى</a>
+  <nav class="navbar" aria-label="التنقل الرئيسي" data-ar-label="التنقل الرئيسي" data-en-label="Main navigation">
+    <a href="index.html" class="logo" aria-label="محمد متن منصوري — الرئيسية"><img src="logo.png" alt=""><span class="brand-name">محمد متن منصوري</span></a>
     <ul class="nav-links">
       <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
-      <li><a href="apps.html" data-ar="تطبيقاتي" data-en="My Apps">تطبيقاتي</a></li>
+      <li><a href="apps.html" aria-current="page" data-ar="تطبيقاتي" data-en="My apps">تطبيقاتي</a></li>
       <li><a href="privacy.html" data-ar="الخصوصية" data-en="Privacy">الخصوصية</a></li>
     </ul>
-    <button id="langBtn" class="lang-btn">EN</button>
+    <button id="langBtn" class="lang-btn" type="button" aria-label="Switch language">EN</button>
   </nav>
-
-  <section class="section">
-    <h1 class="page-title" data-ar="تطبيقاتي" data-en="My Apps">تطبيقاتي</h1>
-    <p class="page-subtitle" data-ar="مجموعة من التطبيقات التي طورتها لخدمة العلم واللغة" data-en="A collection of apps I've built to serve knowledge and language">
-      مجموعة من التطبيقات التي طورتها لخدمة العلم واللغة
-    </p>
+  <main id="main" class="section section-top">
+    <p class="eyebrow centered" data-ar="أعمال مختارة" data-en="Selected work">أعمال مختارة</p>
+    <h1 class="page-title" data-ar="تطبيقاتي" data-en="My apps">تطبيقاتي</h1>
+    <p class="page-subtitle" data-ar="مشاريع رقمية تسعى إلى تقريب المعرفة وخدمة اللغة." data-en="Digital projects bringing knowledge closer and serving language.">مشاريع رقمية تسعى إلى تقريب المعرفة وخدمة اللغة.</p>
 
     <div class="apps-grid">
-
-      <!-- التطبيق الأول: أذكار الصباح والمساء -->
-      <div class="app-card">
-        <img src="athkar.png" alt="أذكار الصباح والمساء" class="app-icon">
-        <h3 data-ar="أذكار الصباح و المساء بالطارقية" data-en="Morning & Evening Adhkar (Tarqi)">أذكار الصباح و المساء بالطارقية</h3>
-        <p data-ar="تطبيق يحتوي على أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارفية للشيخ أبو إسحاق عبد الكريم حفظه الله." 
-           data-en="App featuring Morning & Evening Adhkar by Sheikh Raslan (may Allah preserve him), with Tarqi explanation by Sheikh Abu Ishaq Abdul Karim (may Allah preserve him).">
-           تطبيق يحتوي على أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارقية للشيخ أبو إسحاق عبد الكريم حفظه الله.
-        </p>
-        <div class="app-links">
-          <!-- ⚠️ ضع رابط تحميل الـ APK هنا بدلاً من علامة # -->
-          <a href="https://drive.google.com/file/d/16GM3_fDVfsERmucvInl0demJYRujtEMw/view?usp=sharing" class="btn btn-primary btn-small" data-ar="تحميل التطبيق (APK)" data-en="Download App (APK)">تحميل التطبيق (APK)</a>
-          <a href="privacy-app1.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
+      <article class="app-card">
+        <div class="app-card-top">
+          <img src="athkar.png" alt="" class="app-icon">
+          <div>
+            <h2 data-ar="أذكار الصباح والمساء بالطارقية" data-en="Morning & evening adhkar in Tamasheq">أذكار الصباح والمساء بالطارقية</h2>
+            <span class="app-status" data-ar="متاح للتنزيل" data-en="Available to download">متاح للتنزيل</span>
+          </div>
         </div>
-      </div>
-
-      <!-- التطبيق الثاني: منبر كل تماشق -->
-      <div class="app-card">
-        <img src="minbar.png" alt="منبر كل تماشق" class="app-icon">
-        <h3 data-ar="منبر كل تماشق" data-en="Minbar Koul Tamasheq">منبر كل تماشق</h3>
-        <p data-ar="تطبيق يجمع دروس مشايخ كل تماشق وقصائد نافعة في مكان واحد. (قيد التطوير حالياً)." 
-           data-en="An app that gathers lessons from Tamasheq scholars and beneficial poems in one place. (Currently under development).">
-           تطبيق يجمع دروس مشايخ كل تماشق وقصائد نافعة في مكان واحد. (قيد التطوير حالياً).
-        </p>
+        <p data-ar="أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارقية للشيخ أبي إسحاق عبد الكريم حفظه الله." data-en="Morning and evening adhkar by Sheikh Raslan, with a Tamasheq explanation by Sheikh Abu Ishaq Abdul Karim.">أذكار الصباح والمساء للشيخ رسلان حفظه الله، مع شرح بالطارقية للشيخ أبي إسحاق عبد الكريم حفظه الله.</p>
         <div class="app-links">
-          <span class="btn btn-outline btn-small" style="cursor: not-allowed; opacity: 0.7;" data-ar="قريباً جداً" data-en="Coming Soon">قريباً جداً</span>
-          <a href="privacy-app2.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a>
+          <a href="https://drive.google.com/file/d/16GM3_fDVfsERmucvInl0demJYRujtEMw/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small" data-ar="تحميل التطبيق (APK)" data-en="Download app (APK)">تحميل التطبيق (APK)</a>
+          <a href="privacy.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy policy">سياسة الخصوصية</a>
         </div>
-      </div>
+      </article>
 
+      <article class="app-card">
+        <div class="app-card-top">
+          <img src="minbar.png" alt="" class="app-icon">
+          <div>
+            <h2 data-ar="منبر كل تماشق" data-en="Minbar Koul Tamasheq">منبر كل تماشق</h2>
+            <span class="app-status" data-ar="قيد التطوير" data-en="In development">قيد التطوير</span>
+          </div>
+        </div>
+        <p data-ar="مشروع يجمع دروس مشايخ كل تماشق والقصائد النافعة في مكان واحد." data-en="A project bringing together lessons from Tamasheq scholars and beneficial poetry in one place.">مشروع يجمع دروس مشايخ كل تماشق والقصائد النافعة في مكان واحد.</p>
+        <div class="app-links">
+          <span class="btn btn-outline btn-small" aria-disabled="true" data-ar="سيُعلن عنه قريباً" data-en="Coming soon">سيُعلن عنه قريباً</span>
+          <a href="privacy.html" class="btn btn-outline btn-small" data-ar="سياسة الخصوصية" data-en="Privacy policy">سياسة الخصوصية</a>
+        </div>
+      </article>
     </div>
-  </section>
-
+  </main>
   <footer class="footer">
-    <p data-ar="© 2025 محمد متن منصوري. جميع الحقوق محفوظة." data-en="© 2025 Mohamed Maten Mansouri. All rights reserved.">© 2025 محمد متن منصوري. جميع الحقوق محفوظة.</p>
+    <p>© <span class="current-year">2026</span> <span data-ar="محمد متن منصوري. جميع الحقوق محفوظة." data-en="Mohamed Maten Mansouri. All rights reserved.">محمد متن منصوري. جميع الحقوق محفوظة.</span></p>
+    <div class="footer-links"><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a><a href="privacy.html" data-ar="الخصوصية" data-en="Privacy">الخصوصية</a></div>
   </footer>
-
   <script src="js/main.js"></script>
 </body>
 </html>
