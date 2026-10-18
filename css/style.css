@@ -83,6 +83,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-light); 
 .app-status { display: inline-block; margin-top: .3rem; color: var(--accent-light); font-size: .76rem; font-weight: 700; }
 .app-card > p { flex: 1; margin: 0 0 1.4rem; color: var(--muted); font-size: .92rem; }
 .app-links { display: flex; flex-wrap: wrap; gap: .6rem; }
+.app-gallery { display: flex; width: 100%; gap: .8rem; overflow-x: auto; padding: .15rem .1rem .8rem; margin: 0 0 1rem; scroll-snap-type: x mandatory; scrollbar-color: rgba(226,197,142,.45) transparent; }
+.app-screenshot { flex: 0 0 clamp(112px, 25%, 146px); margin: 0; scroll-snap-align: start; }
+.app-screenshot img { display: block; width: 100%; aspect-ratio: 9 / 19.5; object-fit: cover; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.app-screenshot figcaption { margin-top: .45rem; color: var(--muted); font-size: .76rem; text-align: center; }
 
 .privacy-content { padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .privacy-content h2 { margin: 1.8rem 0 .35rem; color: var(--accent-light); font-family: 'Cairo', sans-serif; font-size: 1.12rem; }

@@ -21,6 +21,11 @@ function applyLanguage(lang) {
     if (translatedLabel) element.setAttribute('aria-label', translatedLabel);
   });
 
+  document.querySelectorAll('[data-ar-alt]').forEach((element) => {
+    const translatedAlt = element.getAttribute(`data-${lang}-alt`);
+    if (translatedAlt) element.setAttribute('alt', translatedAlt);
+  });
+
   const button = document.getElementById('langBtn');
   if (button) {
     button.textContent = isArabic ? 'EN' : 'ع';
